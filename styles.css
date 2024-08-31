@@ -1,0 +1,182 @@
+/* Style global */
+body {
+  font-family: roboto;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Style pour le header et la navigation */
+header {
+  background: blue;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Style pour les sections */
+main section {
+  margin: 20px 0;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main section h1,
+main section h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+/* Style pour les vidéos */
+main section video {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Style pour la section de travail */
+.tainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.course {
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+  color: blue;
+  transition: transform 0.3s;
+}
+
+.course img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course h3 {
+  margin: 10px 0 0;
+}
+
+.course:hover {
+  transform: scale(1.05);
+}
+
+/* Style pour le tableau */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: blue;
+  color: white;
+}
+
+/* Style pour le formulaire de contact */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Style pour le footer */
+footer {
+  background: blue;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer div {
+  margin-top: 10px;
+}
+
+footer a {
+  margin: 0 10px;
+}
+
+footer img {
+  width: 30px;
+  vertical-align: middle;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+footer img:hover {
+  filter: grayscale(0%);
+}
